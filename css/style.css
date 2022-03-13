@@ -56,6 +56,7 @@ a {
 }
 img.image-1{
     transform: rotate(-10deg);
+    
 }
 img.image-2{
     transform: rotate(11deg);
@@ -63,6 +64,19 @@ img.image-2{
 img.image-3{
     transform: rotate(-15deg);
 }
+img:hover{
+  transform: scale(0.54);
+}
+.image-1:hover{
+  transform: translateY(0) scale(1.2);
+}
+.image-2:hover{
+  transform: translateY(0) scale(1.2);
+}
+.image-3:hover{
+  transform: translateY(0) scale(1.2);
+}
+
 
 
 #lompat{
@@ -83,6 +97,10 @@ img.image-3{
     65% {transform: scale(1,1) translateY(0);}
     100% {transform: scale(1,1) translateY(0);}
 }
+/* .top-image:hover{
+  transform: scale(0.54);
+
+} */
 
 
 
