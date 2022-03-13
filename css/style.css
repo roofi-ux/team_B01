@@ -20,9 +20,8 @@ a {
     linear-gradient(-90deg, rgba(245, 246, 252, 0.52), rgba(253, 199, 21, 0.353)),url('../image/sandwich_640.jpg');    
     background-size: cover;
     color: white;
-    /* margin: 57px 10px 10px 10px; */
     margin: 56px auto;
-    width: 97%;
+    width: 100%;
     padding: 24px 0px;
     text-align: center;
 }
