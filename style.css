@@ -1,0 +1,151 @@
+body {
+    background-color: white;
+}
+img {
+    width: 300px;
+    height: 330px;
+}
+
+p {
+    font-size: 18px;
+}
+
+/* ======== WEEKLY POPULAR */
+.body-wrapper .heading {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.heading h2 {
+    margin: 0;
+}
+.container {
+    width: 1100px;
+    margin: 0 auto;
+
+}
+
+.weekly-popular {
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+}
+
+.weekly-popular .menu {
+    position: relative;
+    
+}
+
+.weekly-popular .menu-image {
+    text-align: center;
+}
+
+.text-content {
+    margin-left: 10px;
+}
+
+.checked {
+    color: orange;
+}
+
+/* ======== BUTTON HOVER */
+.btn {
+    display: flex;
+    justify-content: center;
+    margin: 80px 0px;
+}
+
+.btn-popular {
+    width: 310px;
+    padding: 10px;
+    border: none;
+    color: white;
+    background-color: rgb(255, 0, 68);
+    border-radius: 4px;
+    box-shadow: inset 0 0 0 0 #f9e506;
+    transition: ease-out 0.3s;
+    font-size: 18px;
+    outline: none;
+}
+
+.btn-popular:hover {
+    box-shadow: inset 310px 0 0 0 #f9e506;
+    cursor: pointer;
+    color: #000;
+}
+
+/* ======== TODAY MENUS */
+
+.today-menus {
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-bottom: 20px;
+    border: 3px solid #ECECEC;
+}
+
+.today-menus .menu-image img {
+    height: 480px;
+    width: 450px;
+    display: block;
+}
+
+.today-menus .menu-image {
+    width: 450px;
+    float: left;
+    margin: 0;
+}
+
+.today-menus .today-content {
+    width: 450px;
+    float: right;
+    padding: 50px 50px 50px 0;
+}
+
+.today-content p {
+    color: gray;
+    padding: 20px 0px;
+}
+
+.today-content h3 {
+    font-weight: normal;
+}
+
+.btn-dojo {
+    width: 150px;
+    padding: 10px;
+    border: none;
+    color: #111;
+    background-color: white;
+    border: 2px solid rgb(0, 0, 0, 0.8);
+    opacity: 0.8;
+    border-radius: 4px;
+    font-size: 18px;
+    outline: none;
+}
+
+.btn-dojo:hover {
+    cursor: pointer;
+    opacity: 1;
+}
+
+.btn-recipes {
+    width: 150px;
+    padding: 12px;
+    border: none;
+    color: white;
+    background-color: rgb(255, 0, 68);
+    border-radius: 4px;
+    box-shadow: inset 0 0 0 0 #f9e506;
+    transition: ease-out 0.3s;
+    font-size: 18px;
+    outline: none;
+}
+
+.btn-recipes:hover {
+    box-shadow: inset 310px 0 0 0 #f9e506;
+    cursor: pointer;
+    color: #000;
+}
